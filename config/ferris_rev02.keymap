@@ -121,6 +121,7 @@
         #define __ESC__ &kp ESC         // Escape
         #define __DEL__ &kp DEL         // Delete
         #define _META__ &kp K_CMENU     // Meta
+        #define __ALT__ &kp LALT        // Alt
         #define _QWERT_ &to QWT_L       // Change to Qwerty Lafayette layer
         #define _ERGOL_ &to ERG_L       // Change to Ergo-L layer
         #define _______ &trans          // Use bottom layer
@@ -131,8 +132,6 @@
         #define _HOME__ &kp HOME        // Home
         #define __END__ &kp END         // End
         #define __INS__ &kp INS         // Inser
-        #define _PG_UP_ &kp PG_UP       // Page Up
-        #define _PDOWN_ &kp PG_DN       // Page Down
         // >>>
 
         // |            Accents & diacritics                                 <<<
@@ -180,6 +179,7 @@
         #define _REDO__ &kp LC(W)       // Ctrl+w
         #define _COPY__ &kp LC(C)       // Ctrl+c
         #define _PASTE_ &kp LC(V)       // Ctrl+v
+        #define _SIGQT_ &kp LC(BSLH)    // Ctrl+\ send a quit signal
         // TODO: Set sticky layer to emulate this customs dead keys
         // https://zmk.dev/docs/behaviors/sticky-layer
         //#define __QAL__                 // Access QWERTY accent layer for next input
@@ -234,7 +234,7 @@
                 _UNDO__  __CUT__  _COPY__  _PASTE_  __ESC__    __DEL__  _HOME__  __END__  __INS__  _REDO__
                 ___1___  ___2___  ___3___  ___4___  ___5___    ___6___  ___7___  ___8___  ___9___  ___0___
                 _EXCLN_  __AT___  _HASH__  _DOLAR_  _PRCNT_    _CARET_  _AMPS__  _STAR__  _L_PAR_  _R_PAR_
-                                           _______  _______    _PG_UP_  _PDOWN_
+                                           _______  _______    _META__  __ALT___
             >;
         };
 
@@ -247,7 +247,7 @@
                 _ERGOL_  _L_BKT_  _R_BKT_  _DOLAR_  _PRCNT_    _CARET_  _AMPS__  _STAR__  _S_QOT_  _QWERT_
                 _L_BRC_  _L_PAR_  _R_PAR_  _R_BRC_  _EQUAL_    _PLUS__  _MINUS_  __L_T__  __G_T__  _D_QOT_
                 _TILDE_  _GRAVE_  _PIPE__  _UNDER_  _SLASH_    _B_SLH_  __AT___  _HASH__  _EXCLN_  _QMARK_
-                                           _LOCK__  _TERM__    _______  _META__
+                                           _LOCK__  _TERM__    _______  _SIGQT_
             >;
         };
 
