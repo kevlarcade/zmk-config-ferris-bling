@@ -121,6 +121,9 @@
         #define __ESC__ &kp ESC         // Escape
         #define __DEL__ &kp DEL         // Delete
         #define _META__ &kp K_CMENU     // Meta
+        #define _QWERT_ &to QWT_L       // Change to Qwerty Lafayette layer
+        #define _ERGOL_ &to ERG_L       // Change to Ergo-L layer
+        #define _______ &trans          // Use bottom layer
         // >>>
 
         // |            Navigations                                          <<<
@@ -177,9 +180,6 @@
         #define _REDO__ &kp LC(W)       // Ctrl+w
         #define _COPY__ &kp LC(C)       // Ctrl+c
         #define _PASTE_ &kp LC(V)       // Ctrl+v
-        #define _______ &trans          // Use bottom layer
-        #define _QWERT_ &to QWT_L       // Change to Qwerty Lafayette layer
-        #define _ERGOL_ &to ERG_L       // Change to Ergo-L layer
         // TODO: Set sticky layer to emulate this customs dead keys
         // https://zmk.dev/docs/behaviors/sticky-layer
         //#define __QAL__                 // Access QWERTY accent layer for next input
