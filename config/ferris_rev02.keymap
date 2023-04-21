@@ -33,6 +33,103 @@
     keymap {
         compatible = "zmk,keymap";
 
+        #define ___A___ &kp A           // A
+        #define ___B___ &kp B           // B
+        #define ___C___ &kp C           // C
+        #define ___D___ &kp D           // D
+        #define ___E___ &kp E           // E
+        #define ___F___ &kp F           // F
+        #define ___G___ &kp G           // G
+        #define ___H___ &kp H           // H
+        #define ___I___ &kp I           // I
+        #define ___J___ &kp J           // J
+        #define ___K___ &kp K           // K
+        #define ___L___ &kp L           // L
+        #define ___M___ &kp M           // M
+        #define ___N___ &kp N           // N
+        #define ___O___ &kp O           // O
+        #define ___P___ &kp P           // P
+        #define ___Q___ &kp Q           // Q
+        #define ___R___ &kp R           // R
+        #define ___S___ &kp S           // S
+        #define ___T___ &kp T           // T
+        #define ___U___ &kp U           // U
+        #define ___V___ &kp V           // V
+        #define ___W___ &kp W           // W
+        #define ___X___ &kp X           // X
+        #define ___Y___ &kp Y           // Y
+        #define ___Z___ &kp Z           // Z
+        #define ___1___ &kp N1          // 1
+        #define ___2___ &kp N2          // 2
+        #define ___3___ &kp N3          // 3
+        #define ___4___ &kp N4          // 4
+        #define ___5___ &kp N5          // 5
+        #define ___6___ &kp N6          // 6
+        #define ___7___ &kp N7          // 7
+        #define ___8___ &kp N8          // 8
+        #define ___9___ &kp N9          // 9
+        #define ___0___ &kp N0          // 0
+        #define _GRAVE_ &kp GRAVE       // `
+        #define _TILDE_ &kp TILDE       // ~
+        #define _EXCLN_ &kp EXCL        // !
+        #define __AT___ &kp AT          // @
+        #define _HASH__ &kp HASH        // #
+        #define _DOLAR_ &kp DLLR        // $
+        #define _PRCNT_ &kp PRCNT       // %
+        #define _CARET_ &kp CARET       // ^
+        #define _AMPS__ &kp AMPS        // &
+        #define _STAR__ &kp KP_MULTIPLY // *
+        #define _L_PAR_ &kp LPAR        // (
+        #define _R_PAR_ &kp RPARA       // )
+        #define _MINUS_ &kp KP_MINUS    // -
+        #define _UNDER_ &kp UNDER       // _
+        #define _EQUAL_ &kp EQUAL       // =
+        #define _PLUS__ &kp KP_PLUS     // +
+        #define _SLASH_ &kp FSLH        // /
+        #define _QMARK_ &kp QMARK       // ?
+        #define _L_BKT_ &kp LBKT        // [
+        #define _L_BRC_ &kp LBRC        // {
+        #define _R_BKT_ &kp RBKT        // ]
+        #define _R_BRC_ &kp RBRC        // }
+        #define _BSLSH_ &kp BSLH        // \ 
+        #define _PIPE__ &kp PIPE        // |
+        #define _QUOTE_ &kp SQT         // '"
+        #define __L_T__ &kp LT          // <
+        #define __G_T__ &kp GT          // >
+        #define _D_QOT_ &kp DQT         // "
+        #define _SPACE_ &lt NUM_L SPACE // Access num_layer by hold and space by tap
+        #define _BCSPC_ &lt ALT_L BSPC  // Access alt_layer by hold and bacspcace by tap
+        #define _ENTER_ &kp RET         // Return
+        #define _SHIFT_ &kp LSHIFT      // Shift
+        #define __ESC__ &kp ESC         // Escape
+        #define __DEL__ &kp DEL         // Delete
+        #define _META__ &kp K_CMENU     // Meta
+        #define _HOME__ &kp HOME        // Home
+        #define __END__ &kp END         // End
+        #define __INS__ &kp INS         // Inser
+        #define _PG_UP_ &kp PG_UP       // Page Up
+        #define _PDOWN_ &kp PG_DN       // Page Down
+        // TODO: Set the diacritics if ZMK supports it and accents
+        // #define _______
+        #define _LOCK__ &kp LC(LS(RET)) // Shift+Meta+Return
+        #define _TERM__ &kp LC(RET)     // Meta+Return
+        #define __CUT__ &kp LC(X)       // Ctrl+x
+        #define _UNDO__ &kp LC(Z)       // Ctrl+z
+        #define _REDO__ &kp LC(W)       // Ctrl+w
+        #define _COPY__ &kp LC(C)       // Ctrl+c
+        #define _PASTE_ &kp LC(V)       // Ctrl+v
+        #define _______ &trans          // Use bottom layer
+        #define _QWERT_ &to QWT_L       // Change to Qwerty Lafayette layer
+        #define _ERGOL_ &to ERG_L       // Change to Ergo-L layer
+        // TODO: Set sticky layer to emulate this customs dead keys
+        // https://zmk.dev/docs/behaviors/sticky-layer
+        //#define __QAL__                 // Access QWERTY accent layer for next input
+        //#define __EAL__                 // Access Ergo-L accent layer for next input
+        // TODO: Redifine this keys with Mod-Morph
+        // https://zmk.dev/docs/behaviors/mod-morph
+        //#define _COMMA_                 // ,;
+        //#define __DOT__                 // .:
+        //#define _E_CUS_                 // Ergo-L dash and question mark key
 
 //                Template keyboard
 //                _______  _______  _______  _______  _______    _______  _______  _______  _______  _______
