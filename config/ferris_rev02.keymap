@@ -104,7 +104,7 @@
         #define _L_BRC_ &kp LBRC        // {
         #define _R_BKT_ &kp RBKT        // ]
         #define _R_BRC_ &kp RBRC        // }
-        #define _BSLSH_ &kp BSLH        // \ 
+        #define _B_SLH_ &kp BSLH        // \ 
         #define _PIPE__ &kp PIPE        // |
         #define _QUOTE_ &kp SQT         // '"
         #define __L_T__ &kp LT          // <
