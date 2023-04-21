@@ -93,7 +93,7 @@
         #define _AMPS__ &kp AMPS        // &
         #define _STAR__ &kp KP_MULTIPLY // *
         #define _L_PAR_ &kp LPAR        // (
-        #define _R_PAR_ &kp RPARA       // )
+        #define _R_PAR_ &kp RPAR       // )
         #define _MINUS_ &kp KP_MINUS    // -
         #define _UNDER_ &kp UNDER       // _
         #define _EQUAL_ &kp EQUAL       // =
