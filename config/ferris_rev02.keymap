@@ -110,6 +110,8 @@
         #define __L_T__ &kp LT          // <
         #define __G_T__ &kp GT          // >
         #define _D_QOT_ &kp DQT         // "
+        #define _COMMA_ &kp COMMA       // FIX: temp to test build
+        #define __DOT__ &kp DOT         // FIX: trmp to test build
         // >>>
 
         // |            Mods                                                 <<<
