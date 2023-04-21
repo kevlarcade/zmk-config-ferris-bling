@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define QWT_L 0 // QWERTY Lafayette
-#define QAC_L 1 // QWERY Lafayette accents and diacritics
+#define QAC_L 1 // QWERTY Lafayette accents and diacritics
 #define NUM_L 2 // Numbers
 #define ALT_L 3 // Alt-Gr
 #define ERG_L 4 // ERGO-L

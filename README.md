@@ -104,6 +104,17 @@ https://ergol.org/
                     ┗━━━━━┷━━━━━┛ ┗━━━━━┷━━━━━┛
 ```
 
+# Troubleshoot and test
+Before pushing and saw error you can build localy by setup zmk:
+https://zmk.dev/docs/development/setup
+
+Then you can run by using these command:
+```
+MY_GIT_FOLDER=/home/kevlarcade/Tools/git/public
+cd MY_GIT_FOLDER/zmk/app
+west -v build -s $MY_GIT_FOLDER/zmk/app -p -b ferris_rev02 -- -DZMK_CONFIG=$MY_GIT_FOLDER/zmk-config-ferris-lafayette/config
+```
+
 # TODO
 This project isn't fully functional and not yet tested.
 Some modification need to be operate to make it functional.
