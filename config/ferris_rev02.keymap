@@ -134,8 +134,38 @@
 
         // |            Accents & diacritics                                 <<<
         //======================================================================
-        // TODO: Set the diacritics if ZMK supports it and accents
-        // #define _______
+        // TODO: Set and rename the diacritics if ZMK supports it and accents
+        // #define __à_À__
+        // #define __â_Â__
+        // #define __æ_Æ__
+        // #define __é_É__
+        // #define __è_È__
+        // #define __ê_Ê__
+        // #define __î_Î__
+        // #define __ô_Ô__
+        // #define __œ_Œ__
+        // #define __ù_Ù__
+        // #define __û_Û__
+        // #define __ç_Ç__
+        // #define __ñ_Ñ__
+        // #define __ß_ẞ__
+        // #define __«_“__
+        // #define __»_”__
+        // #define ___’___
+        // #define ___…___
+        // #define __·_•__
+        // #define __—_–__
+        // #define __µ_º__
+        // #define __≠_±__
+        // #define __÷_¿__
+        // #define __¬_¡__
+        // #define ___°___
+        // #define ___¶___
+        // #define ___§___
+        // #define ___¤___
+        // #define __£_¢__
+        // #define ___¥___
+        // #define __€_‰__
         // >>>
 
         // |            Customs                                              <<<
