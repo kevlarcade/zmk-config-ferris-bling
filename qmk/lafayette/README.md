@@ -1,8 +1,7 @@
-# ZMK config for Ferris Bling using Lafayette layout
+# QMK config for Ferris Bling using Lafayette layout
 
 ```
-/!\ This project isn’t finished and dont yet tested!
-Use QMK version
+/!\ This project is not yet tested.
 ```
 
 Lafayette layout want to provide a great experience for those who write in
@@ -115,14 +114,5 @@ https://zmk.dev/docs/development/setup
 
 Then you can run by using these command:
 ```
-MY_GIT_FOLDER=/home/kevlarcade/Tools/git/public
-cd MY_GIT_FOLDER/zmk/app
-west -v build -s $MY_GIT_FOLDER/zmk/app -p -b ferris_rev02 -- -DZMK_CONFIG=$MY_GIT_FOLDER/zmk-config-ferris-lafayette/config
+qmk compile -kb ferris/0_2/bling -km lafayette
 ```
-
-# TODO
-This project isn't fully functional and not yet tested.
-Some modification need to be operate to make it functional.
-* Use mod-morph to remap punctuation chars https://zmk.dev/docs/behaviors/mod-morph
-* Use sticky layer for Lafayette dead key https://zmk.dev/docs/behaviors/sticky-layer
-* Define the accents and diacritics
